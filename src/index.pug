@@ -1,6 +1,7 @@
-doctype html
-html(lang="en")
-  head
-    title Free online CV
-    link(rel="stylesheet", href="style.css")
-  body
+extends _component/layout/page
+block cool-config
+  -
+    var myTitleforGoogleSearch = 'My really ultra awesome CV'
+    var myDescriptionForGoogleSearch = 'This is made using PURE HTML5 and CSS3 techniques';
+block awesome-content
+  h1 this is it
