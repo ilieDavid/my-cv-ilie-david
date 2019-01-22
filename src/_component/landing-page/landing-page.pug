@@ -1,0 +1,19 @@
+-
+  var myFullName = 'ilie David';
+  var myJobTitle = 'Junior Front End Developer'
+  var socialList = [
+    {icon:'facebook2', url:'https://facebook.com/drcdavid'},
+    {icon:'twitter', url:'https://twitter.com/ilie_david08'},
+    {icon:'github', url:'https://github.com/ilieDavid'},
+    {icon:'linkedin', url:'https://www.linkedin.com/in/ilie-david-6a812a107/'},
+  ]
+div#landing-page
+div.landing-page
+  .landing-page__wrapper
+    h1.landing-page__name=myFullName
+    h2.landing-page__title=myJobTitle
+    ul.landing-page__social
+      each social in socialList
+        li.landing-page__item
+          label.landing-page__label(for="")
+            span(class=`my-cv__icon--${social.icon}`)
