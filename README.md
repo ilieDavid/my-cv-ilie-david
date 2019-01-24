@@ -1,4 +1,7 @@
 # Pug starter
+
+i want to change to my own
+it should be a very detailed summary about the project and my experience with it
 ## Table of contents
 * [YouTube video tutorials](#youtube-video-tutorials)
 * [Live projects built with pug-starter](#live-projects-built-with-pug-starter)
