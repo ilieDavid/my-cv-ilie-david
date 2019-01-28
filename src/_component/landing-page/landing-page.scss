@@ -37,4 +37,10 @@
 .landing-page__box-message {
   border: 1rem solid red;
   padding: 1rem 0;
+  display: inherit;
+}
+
+.landing-page__box-radio,
+.landing-page__box-message {
+  display: none;
 }
