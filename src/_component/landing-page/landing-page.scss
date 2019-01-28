@@ -76,3 +76,32 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+.landing-page__box-info {
+  border-bottom-left-radius: 0.5rem;
+  flex-grow: 1;
+}
+
+.landing-page__box-close {
+  border-bottom-right-radius: 0.5rem;
+  cursor: pointer;
+  width: 2.5rem;
+  font-size: 1.5rem;
+}
+
+.landing-page__box-link,
+.landing-page__box-link:visited,
+.landing-page__box-message {
+  color: white;
+}
+
+.landing-page__box-link,
+.landing-page__box-link:visited {
+  font-size: 1.4rem;
+  white-space: nowrap;
+  text-decoration: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 80vmin;
+  display: block;
+}
