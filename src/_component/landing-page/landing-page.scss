@@ -66,3 +66,13 @@
   display: flex;
   justify-content: space-between;
 }
+
+.landing-page__box-info,
+.landing-page__box-close {
+  background: white;
+  padding: 0.4rem;
+  white-space: nowrap;
+  line-height: 1.5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
