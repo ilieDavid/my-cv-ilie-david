@@ -57,3 +57,12 @@
   margin-top: 0.5rem;
   position: relative;
 }
+
+.landing-page__box-header {
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  top: 100%;
+  display: flex;
+  justify-content: space-between;
+}
