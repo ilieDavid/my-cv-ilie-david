@@ -44,3 +44,9 @@
 .landing-page__box-message {
   display: none;
 }
+
+#default-message-radio:checked +
+.landing-page__box-message +
+.landing-page__box-header {
+  display: none
+}
