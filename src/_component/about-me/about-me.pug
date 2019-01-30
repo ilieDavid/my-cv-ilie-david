@@ -1,1 +1,44 @@
-#about-me Hi
+//- data come here
+-
+  var header = '#about-me'
+  var imagePath = "asset/image/FB_IMG_1547458819816.jpg"
+  var myFullName = "Ilie David"
+  var myTitle = "Junior front end developer"
+  var slogan = 'We Bring Web developing to Life.'
+  var achievement = {
+    title: 'achievement',
+    content: 'I`ve made some small projects, nothing really of big importance, but i`m just at the start of the road so everything goes with baby steps for the moment.'
+  }
+
+  var coolStuff = {
+    title: 'ttt',
+    buttonList: [
+      {
+        url: 'https://github.com/ilieDavid/my-cv-ilie-david',
+        icon: 'github',
+        label: 'Click to visit the Github project source'
+      },
+      {
+        url: 'asset/doc/CV David Ilie.docx',
+        icon: 'file-word',
+        label: 'Click to download the "full experience" Microsoft Word version'
+      }
+    ]
+  }
+//- the view comes here
+#about-me
+.about-me
+  .about-me__avatar-header=header
+  .about-me__avatar-wrapper
+    img.about-me__avatar(src=imagePath)
+  .about-me__full-name=myFullName
+  .about-me__full-title=myTitle
+  .about-me__slogan=slogan
+
+  .about-me__title=achievement.title
+  .about-me__content=achievement.content
+
+  each button in coolStuff.buttonList
+    a(href=button.url)
+      span=button.label
+      span(class=`my-cv__icon--${button.icon}`)
