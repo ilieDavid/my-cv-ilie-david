@@ -11,7 +11,7 @@
   }
 
   var coolStuff = {
-    title: 'ttt',
+    title: 'grab cool stuff',
     buttonList: [
       {
         url: 'https://github.com/ilieDavid/my-cv-ilie-david',
@@ -38,6 +38,7 @@
   .about-me__title=achievement.title
   .about-me__content=achievement.content
 
+  .about-me__title=coolStuff.title
   each button in coolStuff.buttonList
     a(href=button.url)
       span=button.label
